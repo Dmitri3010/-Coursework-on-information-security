@@ -3,7 +3,6 @@ D:\Projects\University\Ozi course\ZI course\Course work\Course work\bin\Debug\ne
 D:\Projects\University\Ozi course\ZI course\Course work\Course work\bin\Debug\netcoreapp2.1\Course work.runtimeconfig.dev.json
 D:\Projects\University\Ozi course\ZI course\Course work\Course work\bin\Debug\netcoreapp2.1\Course work.dll
 D:\Projects\University\Ozi course\ZI course\Course work\Course work\bin\Debug\netcoreapp2.1\Course work.pdb
-D:\Projects\University\Ozi course\ZI course\Course work\Course work\obj\Debug\netcoreapp2.1\Course work.csprojAssemblyReference.cache
 D:\Projects\University\Ozi course\ZI course\Course work\Course work\obj\Debug\netcoreapp2.1\Course work.csproj.CoreCompileInputs.cache
 D:\Projects\University\Ozi course\ZI course\Course work\Course work\obj\Debug\netcoreapp2.1\Course work.RazorAssemblyInfo.cache
 D:\Projects\University\Ozi course\ZI course\Course work\Course work\obj\Debug\netcoreapp2.1\Course work.RazorAssemblyInfo.cs
