@@ -11800,11 +11800,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\University\\Ozi course\\Course work\\Course work\\Course work.csproj",
+      "projectUniqueName": "D:\\Projects\\University\\Ozi course\\ZI course\\Course work\\Course work\\Course work.csproj",
       "projectName": "Course work",
-      "projectPath": "D:\\Projects\\University\\Ozi course\\Course work\\Course work\\Course work.csproj",
+      "projectPath": "D:\\Projects\\University\\Ozi course\\ZI course\\Course work\\Course work\\Course work.csproj",
       "packagesPath": "C:\\Users\\Dmitri\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\University\\Ozi course\\Course work\\Course work\\obj\\",
+      "outputPath": "D:\\Projects\\University\\Ozi course\\ZI course\\Course work\\Course work\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
