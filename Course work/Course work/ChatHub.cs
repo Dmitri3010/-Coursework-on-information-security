@@ -1,16 +1,13 @@
 ﻿using Microsoft.AspNetCore.SignalR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace Coursework
 {
     public class ChatHub : Hub
     {
-        public async Task Send(string message)
+        public async Task Send(string message, string user)
         {
-            await this.Clients.All.SendAsync("Send", message);
+            await Clients.All.SendAsync("broadcastMessage", user, message);
         }
     }
 }
