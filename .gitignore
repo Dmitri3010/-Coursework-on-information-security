@@ -53,3 +53,6 @@ dkms.conf
 *.lock
 Course work/.vs/
 Course work/Course work/obj/
+Course work/Course work/node_modules/
+Course work/Course work/bin/
+Course work/Course work/Migrations/
