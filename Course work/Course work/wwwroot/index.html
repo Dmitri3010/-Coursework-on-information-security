@@ -11,121 +11,9 @@
 </head>
 <body>
     <div class="container">
-        <h3 class=" text-center">Messaging</h3>
         <div class="messaging">
             <div class="inbox_msg">
-                <div class="inbox_people">
-                    <div class="headind_srch">
-                        <div class="recent_heading">
-                            <h4>Recent</h4>
-                        </div>
-                        <div class="srch_bar">
-                            <div class="stylish-input-group">
-                                <input type="text" class="search-bar" placeholder="Search">
-                                <span class="input-group-addon">
-                                    <button type="button"> <i class="fa fa-search" aria-hidden="true"></i> </button>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="inbox_chat">
-                        <div class="chat_list active_chat">
-                            <div class="chat_people">
-                                <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                                <div class="chat_ib">
-                                    <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
-                                    <p>
-                                        Test, which is a new approach to have all solutions
-                                        astrology under one roof.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="chat_list">
-                            <div class="chat_people">
-                                <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                                <div class="chat_ib">
-                                    <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
-                                    <p>
-                                        Test, which is a new approach to have all solutions
-                                        astrology under one roof.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="chat_list">
-                            <div class="chat_people">
-                                <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                                <div class="chat_ib">
-                                    <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
-                                    <p>
-                                        Test, which is a new approach to have all solutions
-                                        astrology under one roof.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="chat_list">
-                            <div class="chat_people">
-                                <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                                <div class="chat_ib">
-                                    <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
-                                    <p>
-                                        Test, which is a new approach to have all solutions
-                                        astrology under one roof.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="chat_list">
-                            <div class="chat_people">
-                                <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                                <div class="chat_ib">
-                                    <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
-                                    <p>
-                                        Test, which is a new approach to have all solutions
-                                        astrology under one roof.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="chat_list">
-                            <div class="chat_people">
-                                <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                                <div class="chat_ib">
-                                    <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
-                                    <p>
-                                        Test, which is a new approach to have all solutions
-                                        astrology under one roof.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="chat_list">
-                            <div class="chat_people">
-                                <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                                <div class="chat_ib">
-                                    <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
-                                    <p>
-                                        Test, which is a new approach to have all solutions
-                                        astrology under one roof.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="chat_list">
-                            <div class="chat_people">
-                                <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png" alt="sunil"> </div>
-                                <div class="chat_ib">
-                                    <h5>Хуй соси <span class="chat_date">Dec 26</span></h5>
-                                    <p>
-                                       Отъебись от меня
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="mesgs">
                     <div class="msg_history" id="disscussion">
                         <div class="incoming_msg">
@@ -166,7 +54,7 @@
                         </div>
                         <div class="outgoing_msg">
                             <div class="sent_msg">
-                                <p>Че пес гребыны</p>
+                                <p>Тесттесттест</p>
                                 <span class="time_date"> 12.00</span>
                             </div>
                         </div>
@@ -205,6 +93,7 @@
             var messageInput = document.getElementById('message');
             // Get the user name and store it to prepend to messages.
             var name = prompt('Enter your name:', '');
+           // document.getElementById('Sname').textContent = name;
             // Set initial focus to message input box.
             messageInput.focus();
             // Start the connection.
@@ -218,7 +107,7 @@
                // var encodedName = name;
                 var encodedMsg = message;
                 console.log(encodedMsg);
-                console.log(name);
+                console.log(name);       
 
                 var currentTime = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
                 // Add the message to the page.
@@ -242,6 +131,7 @@
             connection.start()
                 .then(function () {
                     console.log('connection started');
+
                     document.getElementById('sendmessage').addEventListener('click', function (event) {
                         // Call the Send method on the hub.
                         connection.invoke('send', name, messageInput.value);
